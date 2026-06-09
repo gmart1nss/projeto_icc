@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #0C0C0C;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -99,26 +99,52 @@ h2 {
     gap: 30px;
 }
 
+.titulo-secao h2 {
+    width: 492px;
+}
+
 .linha {
     width: 650px;
     height: 4px;
 
     background: linear-gradient(to right,
             transparent,
-            #df2828,
+            #E8E3D9,
             transparent);
 
     opacity: 0.8;
 }
 
 .hero {
-    background-color: rgb(26, 26, 26);
+
     display: flex;
+    padding: 200px 240px;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 1920px;
-    height: 967px;
+    gap: 80px;
+    align-self: stretch;
+
+    background: linear-gradient(0deg, rgba(12, 12, 12, 0.50) 0%, rgba(12, 12, 12, 0.50) 100%), linear-gradient(180deg, rgba(12, 12, 12, 0.00) 26.44%, #0C0C0C 100%), url("imagens/imagem_loja.jpg") lightgray 50% / cover no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #E8E3D9;
+    font-family: "UnifrakturMaguntia", cursive;
+    max-width: 500px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #E8E3D9;
+    max-width: 500px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
 }
 
 .grid-discos {
@@ -145,12 +171,14 @@ h2 {
     border: 1px solid #000;
     background: #252525;
 }
+
 .disco:hover {
     border-color: #6B0000;
     box-shadow: 0 0 15px #6B0000;
     transform: translateY(-3px);
     transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
+
 .disco img {
     width: 100%;
     height: 250px;
@@ -221,4 +249,34 @@ footer {
     color: #E8E3D9;
     text-align: center;
     padding: 20px;
+}
+
+.img_loja {
+    display: flex;
+    justify-content: center;
+    width: 749px;
+    height: 522px;
+}
+
+.sobre {
+    display: flex;
+    padding: 200px 280px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+
+.texto_sobre {
+    max-width: 600px;
+}
+
+.texto_sobre h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.texto_sobre p {
+    font-size: 18px;
+    line-height: 1.6;
 }

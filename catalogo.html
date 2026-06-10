@@ -1,22 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=UnifrakturMaguntia&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helvete</title>
+    <title>Hellfena Catálogo</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body class="home">
-    <header>
+
+<body>
+    <header class="header2">
+        <h1>Hellfena</h1>
         <nav class="navbar">
             <ul>
                 <li><a href="inicio.html">Início</a></li>
-                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="catalogo.html" class="ativo">Catalogo</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="campo_pesquisa">
+        <input type="text" placeholder="Pesquisar...">
+
+            <select class="filtro">
+                <option value="todos">Todos</option>
+                <option value="nacionais">Nacionais</option>
+                <option value="death">Death Metal</option>
+                <option value="black">Black Metal</option>
+                <option value="thrash">Thrash Metal</option>
+                <option value="doom">Doom Metal</option>
+                <option value="groove">Groove Metal</option>
+                <option value="nu">Nu Metal</option>
+                <option value="heavy">Heavy Metal</option>
+                <option value="outros">Outros</option>
+
+            </select>
+
+            <select class="ordenacao">
+                <option value="preco_crescente">Preço Crescente</option>
+                <option value="preco_decrescente">Preço Decrescente</option>
+                <option value="nome_az">Nome A-Z</option>
+                <option value="nome_za">Nome Z-A</option>
+            </select>
+
+            <button class="btn-pesquisa">
+                <span class="material-symbols-outlined">search</span>
+            </button>
+
+    </section>
+
+    <main>
+        <section class="titulo-secao">
+            <div class="linha"></div>
+            <h2>Catálogo</h2>
+            <div class="linha"></div>
+        </section>
+
+        <div class="grid-discos">
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/Symbolic_Album.jpg"
+                    alt="Death - Symbolic">
+                <div class="disco-info">
+                    <h3>Death - Symbolic</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 169,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/beneaththeremains.jpg"
+                    alt="Sepultura - Beneath the Remains">
+                <div class="disco-info">
+                    <h3>Sepultura - Beneath the Remains</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 90,00</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/reigninblood.jpg"
+                    alt="Slayer - Reign in Blood">
+                <div class="disco-info">
+                    <h3>Slayer - Reign in Blood</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 149,00</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/demysteriis.jpg"
+                    alt="Mayhem - De Mysteriis dom Sathanas">
+                <div class="disco-info">
+                    <h3>Mayhem - De Mysteriis dom Sathanas </h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 189,90</p>
+                </div>
+            </div>
+
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/cowboysfromhell.jpg"
+                    alt="Pantera - Cowboys from Hell">
+                <div class="disco-info">
+                    <h3>Pantera - Cowboys from Hell</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 129,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/nonesovile.jpg"
+                    alt="Cryptopsy - None So Vile">
+                <div class="disco-info">
+                    <h3>Cryptopsy - None So Vile</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 156,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/dopethorne.jpg"
+                    alt="Eletric Wizard - Dopethrone">
+                <div class="disco-info">
+                    <h3>Eletric Wizard - Dopethrone</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 129,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/roots.jpg"
+                    alt="Sepultura - Roots">
+                <div class="disco-info">
+                    <h3>Sepultura - Roots</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 149,00</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/tsop.jpg"
+                    alt="Death - The Sound of Perseverance">
+                <div class="disco-info">
+                    <h3>Death - The Sound of Perseverance</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 210,90</p>
+                </div>
+            </div>
+
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/thelawssarcofago.jpg"
+                    alt="Sarcófago - The Laws of Scourge">
+                <div class="disco-info">
+                    <h3>Sarcófago - The Laws of Scourge</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 99,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/grotesque.jpg"
+                    alt="Dying Fetus - Grotesque Impalement">
+                <div class="disco-info">
+                    <h3>Dying Fetus - Grotesque Impalement</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 179,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/Iron_Maiden_-_The_Number_Of_The_Beast.jpg"
+                    alt="Iron Maiden - The Number of the Beast">
+                <div class="disco-info">
+                    <h3>Iron Maiden - The Number of the Beast</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 250,00</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/tombofthemutilated.jpg"
+                    alt="Cannibal Corpse - Tomb of the Mutilated">
+                <div class="disco-info">
+                    <h3>Cannibal Corpse - Tomb of the Mutilated</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 199,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/lavotanovo.jpg"
+                    alt="Raimundos - Lavô Tá Novo">
+                <div class="disco-info">
+                    <h3>Raimundos - Lavô Tá Novo</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 89,90</p>
+                </div>
+            </div>
+
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/angelscry.jpg"
+                    alt="Angra - Angels Cry">
+                <div class="disco-info">
+                    <h3>Angra - Angels Cry</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 129,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/bloodfiredeath.jpg"
+                    alt="Bathory - Blood Fire Death">
+                <div class="disco-info">
+                    <h3>Bathory - Blood Fire Death</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 169,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/transilvanian.jpg"
+                    alt="Dark Thorne - Transilvanian Hunger">
+                <div class="disco-info">
+                    <h3>Dark Thorne - Transilvanian Hunger</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 129,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/cryta.jpg"
+                    alt="Crypta - Echoes of the Soul">
+                <div class="disco-info">
+                    <h3>Crypta - Echoes of the Soul</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 95,00</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/masterofpuppets.jpg"
+                    alt="Metallica - Master of Puppets">
+                <div class="disco-info">
+                    <h3>Metallica - Master of Puppets</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 189,90</p>
+                </div>
+            </div>
+
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/repentless.jpg"
+                    alt="Slayer - Repentless">
+                <div class="disco-info">
+                    <h3>Slayer - Repentless</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 149,00</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/rummors.jpg"
+                    alt="FletWood Mac - Rumors">
+                <div class="disco-info">
+                    <h3>FletWood Mac - Rumors</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 199,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/Ride_the_Lightning.jpg"
+                    alt="Metallica - Ride the Lightning">
+                <div class="disco-info">
+                    <h3>Metallica - Ride the Lightning</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 290,00</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/issues.jpg" alt="Korn - Issues">
+                <div class="disco-info">
+                    <h3>Korn - Issues</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 149,00</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/toxicity.jpg"
+                    alt="System of a Down - Toxicity">
+                <div class="disco-info">
+                    <h3>System of a Down - Toxicity</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 189,90</p>
+                </div>
+            </div>
+
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/masterofreality.jpg"
+                    alt="Black Sabbath - Master of Reality">
+                <div class="disco-info">
+                    <h3>Black Sabbath - Master of Reality</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 129,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/blacksabbath.jpg"
+                    alt="Black Sabbath - Black Sabbath">
+                <div class="disco-info">
+                    <h3>Black Sabbath - Black Sabbath</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 129,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/blackmage.jpeg"
+                    alt="Ghostemane - Black Mage">
+                <div class="disco-info">
+                    <h3>Ghostemane - Black Mage</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 129,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/blackmetal.jpg"
+                    alt="Venom - Black Metal">
+                <div class="disco-info">
+                    <h3>Venom - Black Metal</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 179,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/chaosad.jpg"
+                    alt="Sepultura - Chaos A.D">
+                <div class="disco-info">
+                    <h3>Sepultura - Chaos A.D</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 109,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/arise.jpg"
+                    alt="Sepultura - Arise">
+                <div class="disco-info">
+                    <h3>Sepultura - Arise</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 100,00</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/graygrey.jpg"
+                    alt="$uicideboy$ - Gray/Grey">
+                <div class="disco-info">
+                    <h3>$uicideboy$ - Gray/Grey</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 219,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/hybridtheory.jpg"
+                    alt="Linkin Park - Hybrid Theory">
+                <div class="disco-info">
+                    <h3>Linkin Park - Hybrid Theory</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 329,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/sonic.jpg"
+                    alt="Crowbar - Sonic Excess in Its Purest Form">
+                <div class="disco-info">
+                    <h3>Crowbar - Sonic Excess in Its Purest Form</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 185,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/spiritualhealing.jpg"
+                    alt="Death - Spiritual Healing">
+                <div class="disco-info">
+                    <h3>Death - Spiritual Healing</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 159,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/spit.jpg" alt="Kittie - Spit">
+                <div class="disco-info">
+                    <h3>Kittie - Spit</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 149,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/vulgardisplay.jpg"
+                    alt="Pantera - Vulgar Display of Power">
+                <div class="disco-info">
+                    <h3>Pantera - Vulgar Display of Power</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 139,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/vol4.jpg"
+                    alt="Black Sabbath - Vol. 4">
+                <div class="disco-info">
+                    <h3>Black Sabbath - Vol. 4</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 129,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/dirt.jpg"
+                    alt="Alice in Chains - Dirt">
+                <div class="disco-info">
+                    <h3>Alice in Chains - Dirt</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 129,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/piece.jpg"
+                    alt="Iron Maiden - Piece of Mind">
+                <div class="disco-info">
+                    <h3>Iron Maiden - Piece of Mind</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 129,90</p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <img src="/home/gabriel-martins/Computaria/ICC/projeto_helvete/imagens/limp.jpg"
+                    alt="Limp Bizkit - Significant Other">
+                <div class="disco-info">
+                    <h3>Limp Bizkit - Significant Other</h3>
+                </div>
+                <div class="preco">
+                    <p>R$ 429,90</p>
+                </div>
+            </div>
+    </main>
+</body>

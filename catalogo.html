@@ -26,9 +26,9 @@
     </header>
 
     <section class="campo_pesquisa">
-        <input type="text" placeholder="Pesquisar...">
+        <input id="pesquisa" type="text" placeholder="Pesquisar...">
 
-            <select class="filtro">
+            <select id="filtro" class="filtro">
                 <option value="todos">Todos</option>
                 <option value="nacionais">Nacionais</option>
                 <option value="death">Death Metal</option>
@@ -42,14 +42,14 @@
 
             </select>
 
-            <select class="ordenacao">
+            <select id="ordenacao" class="ordenacao">
                 <option value="preco_crescente">Preço Crescente</option>
                 <option value="preco_decrescente">Preço Decrescente</option>
                 <option value="nome_az">Nome A-Z</option>
                 <option value="nome_za">Nome Z-A</option>
             </select>
 
-            <button class="btn-pesquisa">
+            <button id="btnPesquisar" class="btn-pesquisa">
                 <span class="material-symbols-outlined">search</span>
             </button>
 
@@ -62,7 +62,9 @@
             <div class="linha"></div>
         </section>
 
-        <div class="grid-discos">
+        <div class="grid-discos-ctlg">
+
+            <a href="pagina_albuns/psymbolic.html" class="link-album">
             <div class="disco" data-genero="death">
                 <img src="imagens/Symbolic_Album.jpg"
                     alt="Death - Symbolic">
@@ -73,9 +75,10 @@
                     <p>R$ 169,90</p>
                 </div>
             </div>
+            </a>
 
             <a href="pagina_albuns/pbeneathremains.html" class="link-album">
-            <div class="disco" data-genero="nacionais">
+            <div class="disco" data-genero="nacionais, thrash">
                 <img src="imagens/beneaththeremains.jpg"
                     alt="Sepultura - Beneath the Remains">
                 <div class="disco-info">
@@ -116,7 +119,7 @@
 
 
             <a href="pagina_albuns/pcowboys.html" class="link-album">
-            <div class="disco" data-genero="thrash">
+            <div class="disco" data-genero="groove">
                 <img src="imagens/cowboysfromhell.jpg"
                     alt="Pantera - Cowboys from Hell">
                 <div class="disco-info">
@@ -157,7 +160,7 @@
             </a>  
 
             <a href="pagina_albuns/proots.html" class="link-album">
-            <div class="disco" data-genero="nacionais">
+            <div class="disco" data-genero="nacionais, groove, nu">
                 <img src="imagens/roots.jpg"
                     alt="Sepultura - Roots">
                 <div class="disco-info">
@@ -182,7 +185,7 @@
             </div>
 
 
-            <div class="disco" data-genero="nacionais">
+            <div class="disco" data-genero="nacionais, black">
                 <img src="imagens/thelawssarcofago.jpg"
                     alt="Sarcófago - The Laws of Scourge">
                 <div class="disco-info">
@@ -229,7 +232,7 @@
             </div>
 
             <a href="pagina_albuns/plavotanovo.html" class="link-album">
-            <div class="disco" data-genero="nacionais">
+            <div class="disco" data-genero="nacionais, outros">
                 <img src="imagens/lavotanovo.jpg"
                     alt="Raimundos - Lavô Tá Novo">
                 <div class="disco-info">
@@ -242,7 +245,7 @@
             </a>
 
 
-            <div class="disco" data-genero="nacionais">
+            <div class="disco" data-genero="nacionais, heavy">
                 <img src="imagens/angelscry.jpg"
                     alt="Angra - Angels Cry">
                 <div class="disco-info">
@@ -275,7 +278,7 @@
                 </div>
             </div>
 
-            <div class="disco" data-genero="nacionais">
+            <div class="disco" data-genero="nacionais, thrash">
                 <img src="imagens/cryta.jpg"
                     alt="Crypta - Echoes of the Soul">
                 <div class="disco-info">
@@ -353,7 +356,7 @@
             </div>
 
 
-            <div class="disco" data-genero="doom">
+            <div class="disco" data-genero="doom, heavy">
                 <img src="imagens/masterofreality.jpg"
                     alt="Black Sabbath - Master of Reality">
                 <div class="disco-info">
@@ -364,7 +367,7 @@
                 </div>
             </div>
 
-            <div class="disco" data-genero="heavy">
+            <div class="disco" data-genero="heavy, doom">
                 <img src="imagens/blacksabbath.jpg"
                     alt="Black Sabbath - Black Sabbath">
                 <div class="disco-info">
@@ -386,7 +389,7 @@
                 </div>
             </div>
 
-            <div class="disco" data-genero="black">
+            <div class="disco" data-genero="black, heavy">
                 <img src="imagens/blackmetal.jpg"
                     alt="Venom - Black Metal">
                 <div class="disco-info">
@@ -397,7 +400,7 @@
                 </div>
             </div>
 
-            <div class="disco" data-genero="nacionais">
+            <div class="disco" data-genero="nacionais, groove">
                 <img src="imagens/chaosad.jpg"
                     alt="Sepultura - Chaos A.D">
                 <div class="disco-info">
@@ -408,7 +411,7 @@
                 </div>
             </div>
 
-            <div class="disco" data-genero="nacionais">
+            <div class="disco" data-genero="nacionais, thrash">
                 <img src="imagens/arise.jpg"
                     alt="Sepultura - Arise">
                 <div class="disco-info">
@@ -441,7 +444,7 @@
                 </div>
             </div>
 
-            <div class="disco" data-genero="doom">
+            <div class="disco" data-genero="doom, slam">
                 <img src="imagens/sonic.jpg"
                     alt="Crowbar - Sonic Excess in Its Purest Form">
                 <div class="disco-info">
@@ -463,7 +466,7 @@
                 </div>
             </div>
 
-            <div class="disco" data-genero="groove">
+            <div class="disco" data-genero="groove, nu">
                 <img src="imagens/spit.jpg" alt="Kittie - Spit">
                 <div class="disco-info">
                     <h3>Kittie - Spit</h3>
@@ -484,7 +487,7 @@
                 </div>
             </div>
 
-            <div class="disco" data-genero="doom">
+            <div class="disco" data-genero="doom, heavy">
                 <img src="imagens/vol4.jpg"
                     alt="Black Sabbath - Vol. 4">
                 <div class="disco-info">
@@ -527,8 +530,11 @@
                     <p>R$ 429,90</p>
                 </div>
             </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2026 Hellfena Records. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>

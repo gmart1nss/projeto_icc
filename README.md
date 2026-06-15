@@ -7,7 +7,9 @@ A proposta do trabalho foi desenvolver um catálogo temático de álbuns utiliza
 Integrantes:
 
 Gabriel Martins — desenvolvimento e implementação do projeto
+
 Júlia Miqueline — desenvolvimento e implementação do projeto
+
 Luana Sarto — apoio na construção visual e auxílio nos elementos de design
 
 Tecnologias Utilizadas:

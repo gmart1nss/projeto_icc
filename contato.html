@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=UnifrakturMaguntia&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Hellfena Records</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header class="header2">
+        <h1>Hellfena</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="inicio.html">Início</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="contato.html" class="ativo">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pagina-carrinho">
+        <section class="titulo-secao">
+            <div class="linha"></div>
+            <h2>Carrinho</h2>
+            <div class="linha"></div>
+        </section>
+
+        <section class="checkout-container">
+            <form class="form-carrinho" action="mailto:contato@hellfenarecords.com" method="post"
+                enctype="text/plain">
+                <div class="grupo-formulario">
+                    <h3>Dados do comprador</h3>
+
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+                </div>
+
+                <div class="grupo-formulario">
+                    <h3>Disco escolhido</h3>
+
+                    <label for="album">Álbum</label>
+                    <select id="album" name="album" required>
+                        <option value="">Selecione um disco</option>
+                        <option>Death - Symbolic | R$ 189,90</option>
+                        <option>Sepultura - Beneath the Remains | R$ 179,90</option>
+                        <option>Slayer - Reign in Blood | R$ 169,90</option>
+                        <option>Mayhem - De Mysteriis dom Sathanas | R$ 219,90</option>
+                        <option>Pantera - Cowboys from Hell | R$ 159,90</option>
+                        <option>Cryptopsy - None So Vile | R$ 199,90</option>
+                        <option>Electric Wizard - Dopethrone | R$ 189,90</option>
+                        <option>Sepultura - Roots | R$ 169,90</option>
+                        <option>Death - The Sound of Perseverance | R$ 209,90</option>
+                        <option>Sarcófago - The Laws of Scourge | R$ 179,90</option>
+                        <option>Dying Fetus - Grotesque Impalement | R$ 149,90</option>
+                        <option>Cannibal Corpse - Tomb of the Mutilated | R$ 199,90</option>
+                        <option>Raimundos - Lavô Tá Novo | R$ 129,90</option>
+                        <option>Angra - Angels Cry | R$ 149,90</option>
+                        <option>Bathory - Blood Fire Death | R$ 229,90</option>
+                        <option>Darkthrone - Transilvanian Hunger | R$ 199,90</option>
+                        <option>Crypta - Echoes of the Soul | R$ 149,90</option>
+                        <option>Metallica - Master of Puppets | R$ 179,90</option>
+                        <option>Slayer - Repentless | R$ 139,90</option>
+                        <option>Fleetwood Mac - Rumours | R$ 179,90</option>
+                        <option>Metallica - Ride the Lightning | R$ 189,90</option>
+                        <option>Korn - Issues | R$ 149,90</option>
+                        <option>System of a Down - Toxicity | R$ 169,90</option>
+                        <option>Black Sabbath - Master of Reality | R$ 179,90</option>
+                        <option>Black Sabbath - Black Sabbath | R$ 179,90</option>
+                        <option>Ghostemane - Black Mage | R$ 149,90</option>
+                        <option>Venom - Black Metal | R$ 189,90</option>
+                        <option>Sepultura - Chaos A.D. | R$ 169,90</option>
+                        <option>Sepultura - Arise | R$ 169,90</option>
+                        <option>$uicideboy$ - Gray/Grey | R$ 169,90</option>
+                        <option>Linkin Park - Hybrid Theory | R$ 179,90</option>
+                        <option>Crowbar - Sonic Excess in Its Purest Form | R$ 179,90</option>
+                        <option>Death - Spiritual Healing | R$ 179,90</option>
+                        <option>Kittie - Spit | R$ 149,90</option>
+                        <option>Pantera - Vulgar Display of Power | R$ 159,90</option>
+                        <option>Black Sabbath - Vol. 4 | R$ 179,90</option>
+                        <option>Alice in Chains - Dirt | R$ 169,90</option>
+                        <option>Iron Maiden - Piece of Mind | R$ 179,90</option>
+                        <option>Limp Bizkit - Significant Other | R$ 169,90</option>
+                        <option>Iron Maiden - The Number of the Beast | R$ 189,90</option>
+                    </select>
+
+                    <div class="linha-formulario">
+                        <div>
+                            <label for="quantidade">Quantidade</label>
+                            <input type="number" id="quantidade" name="quantidade" min="1" max="10" value="1">
+                        </div>
+
+                        <div>
+                            <label for="formato">Formato</label>
+                            <select id="formato" name="formato">
+                                <option>Vinil novo</option>
+                                <option>Vinil usado</option>
+                                <option>CD</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grupo-formulario">
+                    <h3>Entrega e pagamento</h3>
+
+                    <label for="entrega">Entrega</label>
+                    <select id="entrega" name="entrega" required>
+                        <option value="">Escolha uma opção</option>
+                        <option>Retirar na loja</option>
+                        <option>Correios PAC</option>
+                        <option>Correios Sedex</option>
+                        <option>Motoboy local</option>
+                    </select>
+
+                    <label for="pagamento">Pagamento</label>
+                    <select id="pagamento" name="pagamento" required>
+                        <option value="">Escolha uma opção</option>
+                        <option>Pix</option>
+                        <option>Cartão de crédito</option>
+                        <option>Cartão de débito</option>
+                        <option>Dinheiro na retirada</option>
+                    </select>
+
+                    <label for="endereco">Endereço</label>
+                    <textarea id="endereco" name="endereco" rows="3"
+                        placeholder="Rua, número, bairro, cidade e CEP"></textarea>
+
+                    <label for="observacoes">Observações</label>
+                    <textarea id="observacoes" name="observacoes" rows="4"
+                        placeholder="Prensagem desejada, estado do disco, troca por outro item..."></textarea>
+                </div>
+
+                <button class="comprar botao-finalizar" type="submit">
+                    Finalizar pedido
+                </button>
+            </form>
+
+            <aside class="resumo-carrinho">
+                <h3>Resumo</h3>
+                <div class="item-resumo">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <div>
+                        <strong>Pedido por formulário</strong>
+                        <p>Escolha o disco, informe a entrega e envie seus dados para reservar o item.</p>
+                    </div>
+                </div>
+                <div class="linha-resumo">
+                    <span>Frete</span>
+                    <strong>A combinar</strong>
+                </div>
+                <div class="linha-resumo">
+                    <span>Reserva</span>
+                    <strong>24 horas</strong>
+                </div>
+                <div class="linha-resumo total-resumo">
+                    <span>Total</span>
+                    <strong>Confirmado por e-mail</strong>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Hellfena Records. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

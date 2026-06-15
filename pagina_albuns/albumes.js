@@ -1,7 +1,7 @@
 const albuns = {
     tsop: {
         titulo: "Death - The Sound of Perseverance",
-        preco: "R$ 210,90",
+        preco: "R$ 209,90",
         imagem: "tsop.jpg",
         ano: "1998",
         genero: "Death Metal",
@@ -11,7 +11,7 @@ const albuns = {
     },
     thelawsofscourge: {
         titulo: "Sarcófago - The Laws of Scourge",
-        preco: "R$ 99,90",
+        preco: "R$ 179,90",
         imagem: "thelawssarcofago.jpg",
         ano: "1991",
         genero: "Black/Death Metal",
@@ -21,7 +21,7 @@ const albuns = {
     },
     grotesque: {
         titulo: "Dying Fetus - Grotesque Impalement",
-        preco: "R$ 179,90",
+        preco: "R$ 149,90",
         imagem: "grotesque.jpg",
         ano: "2000",
         genero: "Death Metal",
@@ -41,7 +41,7 @@ const albuns = {
     },
     angelscry: {
         titulo: "Angra - Angels Cry",
-        preco: "R$ 129,90",
+        preco: "R$ 149,90",
         imagem: "angelscry.jpg",
         ano: "1993",
         genero: "Power Metal",
@@ -51,7 +51,7 @@ const albuns = {
     },
     bloodfiredeath: {
         titulo: "Bathory - Blood Fire Death",
-        preco: "R$ 169,90",
+        preco: "R$ 229,90",
         imagem: "bloodfiredeath.jpg",
         ano: "1988",
         genero: "Black Metal",
@@ -61,7 +61,7 @@ const albuns = {
     },
     transilvanianhunger: {
         titulo: "Darkthrone - Transilvanian Hunger",
-        preco: "R$ 129,90",
+        preco: "R$ 199,90",
         imagem: "transilvanian.jpg",
         ano: "1994",
         genero: "Black Metal",
@@ -71,7 +71,7 @@ const albuns = {
     },
     echoesofthesoul: {
         titulo: "Crypta - Echoes of the Soul",
-        preco: "R$ 95,00",
+        preco: "R$ 149,90",
         imagem: "cryta.jpg",
         ano: "2021",
         genero: "Death Metal",
@@ -81,7 +81,7 @@ const albuns = {
     },
     repentless: {
         titulo: "Slayer - Repentless",
-        preco: "R$ 149,00",
+        preco: "R$ 139,90",
         imagem: "repentless.jpg",
         ano: "2015",
         genero: "Thrash Metal",
@@ -91,7 +91,7 @@ const albuns = {
     },
     rumours: {
         titulo: "Fleetwood Mac - Rumours",
-        preco: "R$ 199,90",
+        preco: "R$ 179,90",
         imagem: "rummors.jpg",
         ano: "1977",
         genero: "Rock",
@@ -101,7 +101,7 @@ const albuns = {
     },
     ridethelightning: {
         titulo: "Metallica - Ride the Lightning",
-        preco: "R$ 290,00",
+        preco: "R$ 189,90",
         imagem: "Ride_the_Lightning.jpg",
         ano: "1984",
         genero: "Thrash Metal",
@@ -111,7 +111,7 @@ const albuns = {
     },
     issues: {
         titulo: "Korn - Issues",
-        preco: "R$ 149,00",
+        preco: "R$ 149,90",
         imagem: "issues.jpg",
         ano: "1999",
         genero: "Nu Metal",
@@ -121,7 +121,7 @@ const albuns = {
     },
     toxicity: {
         titulo: "System of a Down - Toxicity",
-        preco: "R$ 189,90",
+        preco: "R$ 169,90",
         imagem: "toxicity.jpg",
         ano: "2001",
         genero: "Nu Metal",
@@ -131,7 +131,7 @@ const albuns = {
     },
     masterofreality: {
         titulo: "Black Sabbath - Master of Reality",
-        preco: "R$ 129,90",
+        preco: "R$ 179,90",
         imagem: "masterofreality.jpg",
         ano: "1971",
         genero: "Doom Metal",
@@ -141,7 +141,7 @@ const albuns = {
     },
     blackmage: {
         titulo: "Ghostemane - Black Mage",
-        preco: "R$ 129,90",
+        preco: "R$ 149,90",
         imagem: "blackmage.jpeg",
         ano: "2016",
         genero: "Trap Metal",
@@ -151,7 +151,7 @@ const albuns = {
     },
     blackmetal: {
         titulo: "Venom - Black Metal",
-        preco: "R$ 179,90",
+        preco: "R$ 189,90",
         imagem: "blackmetal.jpg",
         ano: "1982",
         genero: "Black/Heavy Metal",
@@ -161,7 +161,7 @@ const albuns = {
     },
     chaosad: {
         titulo: "Sepultura - Chaos A.D.",
-        preco: "R$ 109,90",
+        preco: "R$ 169,90",
         imagem: "chaosad.jpg",
         ano: "1993",
         genero: "Groove Metal",
@@ -171,7 +171,7 @@ const albuns = {
     },
     arise: {
         titulo: "Sepultura - Arise",
-        preco: "R$ 100,00",
+        preco: "R$ 169,90",
         imagem: "arise.jpg",
         ano: "1991",
         genero: "Thrash Metal",
@@ -181,7 +181,7 @@ const albuns = {
     },
     graygrey: {
         titulo: "$uicideboy$ - Gray/Grey",
-        preco: "R$ 219,90",
+        preco: "R$ 169,90",
         imagem: "graygrey.jpg",
         ano: "2015",
         genero: "Cloud Rap",
@@ -191,7 +191,7 @@ const albuns = {
     },
     hybridtheory: {
         titulo: "Linkin Park - Hybrid Theory",
-        preco: "R$ 329,90",
+        preco: "R$ 179,90",
         imagem: "hybridtheory.jpg",
         ano: "2000",
         genero: "Nu Metal",
@@ -201,7 +201,7 @@ const albuns = {
     },
     sonicexcess: {
         titulo: "Crowbar - Sonic Excess in Its Purest Form",
-        preco: "R$ 185,90",
+        preco: "R$ 179,90",
         imagem: "sonic.jpg",
         ano: "2001",
         genero: "Sludge/Doom Metal",
@@ -211,7 +211,7 @@ const albuns = {
     },
     spiritualhealing: {
         titulo: "Death - Spiritual Healing",
-        preco: "R$ 159,90",
+        preco: "R$ 179,90",
         imagem: "spiritualhealing.jpg",
         ano: "1990",
         genero: "Death Metal",
@@ -231,7 +231,7 @@ const albuns = {
     },
     vulgardisplay: {
         titulo: "Pantera - Vulgar Display of Power",
-        preco: "R$ 139,90",
+        preco: "R$ 159,90",
         imagem: "vulgardisplay.jpg",
         ano: "1992",
         genero: "Groove Metal",
@@ -241,7 +241,7 @@ const albuns = {
     },
     vol4: {
         titulo: "Black Sabbath - Vol. 4",
-        preco: "R$ 129,90",
+        preco: "R$ 179,90",
         imagem: "vol4.jpg",
         ano: "1972",
         genero: "Doom/Heavy Metal",
@@ -251,7 +251,7 @@ const albuns = {
     },
     dirt: {
         titulo: "Alice in Chains - Dirt",
-        preco: "R$ 129,90",
+        preco: "R$ 169,90",
         imagem: "dirt.jpg",
         ano: "1992",
         genero: "Grunge/Alternative Metal",
@@ -261,7 +261,7 @@ const albuns = {
     },
     pieceofmind: {
         titulo: "Iron Maiden - Piece of Mind",
-        preco: "R$ 129,90",
+        preco: "R$ 179,90",
         imagem: "piece.jpg",
         ano: "1983",
         genero: "Heavy Metal",
@@ -271,7 +271,7 @@ const albuns = {
     },
     limp: {
         titulo: "Limp Bizkit - Significant Other",
-        preco: "R$ 429,90",
+        preco: "R$ 169,90",
         imagem: "limp.jpg",
         ano: "1999",
         genero: "Nu Metal",
@@ -281,78 +281,78 @@ const albuns = {
     },
     symbolic: {
         titulo: "Death - Symbolic",
-        preco: "R$ 169,90",
+        preco: "R$ 189,90",
         imagem: "Symbolic_Album.jpg",
         pagina: "psymbolic.html"
     },
     beneathremains: {
         titulo: "Sepultura - Beneath the Remains",
-        preco: "R$ 90,00",
+        preco: "R$ 179,90",
         imagem: "beneaththeremains.jpg",
         pagina: "pbeneathremains.html"
     },
     reigninblood: {
         titulo: "Slayer - Reign in Blood",
-        preco: "R$ 199,90",
+        preco: "R$ 169,90",
         imagem: "reigninblood.jpg",
         pagina: "preigninblood.html",
         similares: ["repentless", "masterofpuppets", "ridethelightning", "beneathremains", "arise"]
     },
     mayhem: {
         titulo: "Mayhem - De Mysteriis dom Sathanas",
-        preco: "R$ 189,90",
+        preco: "R$ 219,90",
         imagem: "demysteriis.jpg",
         pagina: "pmayhem.html"
     },
     cowboys: {
         titulo: "Pantera - Cowboys from Hell",
-        preco: "R$ 129,90",
+        preco: "R$ 159,90",
         imagem: "cowboysfromhell.jpg",
         pagina: "pcowboys.html",
         similares: ["vulgardisplay", "chaosad", "roots", "spit", "sonicexcess"]
     },
     nonesovile: {
         titulo: "Cryptopsy - None So Vile",
-        preco: "R$ 156,90",
+        preco: "R$ 199,90",
         imagem: "nonesovile.jpg",
         pagina: "pnonesovile.html",
         similares: ["grotesque", "tombofthemutilated", "tsop", "symbolic", "spiritualhealing"]
     },
     dopethrone: {
         titulo: "Electric Wizard - Dopethrone",
-        preco: "R$ 129,90",
+        preco: "R$ 189,90",
         imagem: "dopethorne.jpg",
         pagina: "pdopethorne.html",
         similares: ["masterofreality", "vol4", "sonicexcess", "blacksabbath", "dirt"]
     },
     roots: {
         titulo: "Sepultura - Roots",
-        preco: "R$ 149,90",
+        preco: "R$ 169,90",
         imagem: "roots.jpg",
         pagina: "proots.html"
     },
     numberofthebeast: {
         titulo: "Iron Maiden - The Number of the Beast",
-        preco: "R$ 250,00",
+        preco: "R$ 189,90",
         imagem: "Iron_Maiden_-_The_Number_Of_The_Beast.jpg",
         pagina: "p666.html"
     },
     lavotanovo: {
         titulo: "Raimundos - Lavô Tá Novo",
-        preco: "R$ 89,90",
+        preco: "R$ 129,90",
         imagem: "lavotanovo.jpg",
         pagina: "plavotanovo.html",
         similares: ["angelscry", "roots", "chaosad", "rumours", "dirt"]
     },
     masterofpuppets: {
         titulo: "Metallica - Master of Puppets",
-        preco: "R$ 189,90",
+        preco: "R$ 179,90",
         imagem: "masterofpuppets.jpg",
         pagina: "pmasterofpuppets.html"
     },
     blacksabbath: {
         titulo: "Black Sabbath - Black Sabbath",
-        preco: "R$ 129,90",
+        preco: "R$ 179,90",
         imagem: "blacksabbath.jpg",
         pagina: "pblacksabbath.html"
     }

@@ -570,6 +570,36 @@ footer {
         url("imagens/background_roots.jpg");
 }
 
+.album-number {
+    background-image:
+        linear-gradient(to bottom,
+            #0C0C0C 0%,
+            rgba(76, 76, 76, 0.15) 35%,
+            rgba(0, 0, 0, 0.55) 65%,
+            #0C0C0C 100%),
+        url("imagens/backgroundthenumber.jpg");
+}
+
+.album-master {
+    background-image:
+        linear-gradient(to bottom,
+            #0C0C0C 0%,
+            rgba(76, 76, 76, 0.15) 35%,
+            rgba(0, 0, 0, 0.55) 65%,
+            #0C0C0C 100%),
+        url("imagens/backgroundmaster.jpg");
+}
+
+.album-blacksabbath {
+    background-image:
+        linear-gradient(to bottom,
+            #0C0C0C 0%,
+            rgba(76, 76, 76, 0.15) 35%,
+            rgba(0, 0, 0, 0.55) 65%,
+            #0C0C0C 100%),
+        url("imagens/backgroundblacksabbath.jpg");
+}
+
 .track-e-backcover.album-roots {
     min-height: 700px;
     height: auto;

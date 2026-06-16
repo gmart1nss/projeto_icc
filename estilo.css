@@ -589,6 +589,66 @@ footer {
         url("imagens/backgroundthenumber.jpg");
 }
 
+.album-lavo {
+    background-image:
+        linear-gradient(to bottom,
+            #0C0C0C 0%,
+            rgba(76, 76, 76, 0.15) 35%,
+            rgba(0, 0, 0, 0.55) 65%,
+            #0C0C0C 100%),
+        url("imagens/background_lavo.png");
+}
+
+.album-angels {
+    background-image:
+        linear-gradient(to bottom,
+            #0C0C0C 0%,
+            rgba(76, 76, 76, 0.15) 35%,
+            rgba(0, 0, 0, 0.55) 65%,
+            #0C0C0C 100%),
+        url("imagens/background_angels.png");
+}
+
+.album-dirt {
+    background-image:
+        linear-gradient(to bottom,
+            #0C0C0C 0%,
+            rgba(76, 76, 76, 0.15) 35%,
+            rgba(0, 0, 0, 0.55) 65%,
+            #0C0C0C 100%),
+        url("imagens/background_dirt.png");
+}
+
+.album-rumours {
+    background-image:
+        linear-gradient(to bottom,
+            #0C0C0C 0%,
+            rgba(76, 76, 76, 0.15) 35%,
+            rgba(0, 0, 0, 0.55) 65%,
+            #0C0C0C 100%),
+        url("imagens/background_rumours.png");
+}
+
+.album-cryta {
+    background-image:
+        linear-gradient(to bottom,
+            #0C0C0C 0%,
+            rgba(76, 76, 76, 0.15) 35%,
+            rgba(0, 0, 0, 0.55) 65%,
+            #0C0C0C 100%),
+        url("imagens/background_cryta.png");
+}
+
+.album-piece {
+    background-image:
+        linear-gradient(to bottom,
+            #0C0C0C 0%,
+            rgba(76, 76, 76, 0.15) 35%,
+            rgba(0, 0, 0, 0.55) 65%,
+            #0C0C0C 100%),
+        url("imagens/background_piece.png");
+}
+
 .album-master {
     background-image:
         linear-gradient(to bottom,
@@ -619,6 +679,7 @@ footer {
     padding-left: 145px;
 }
 
+
 .album-roots .tracklist ol {
     grid-template-columns: repeat(2, 260px);
     column-gap: 35px;
@@ -643,7 +704,7 @@ footer {
 .tracklist h3 {
     font-family: "UnifrakturMaguntia", cursive;
     color: #E8E3D9;
-    font-size: 68px;
+    font-size: 56px;
     text-shadow: 0 0 10px #6B0000;
 }
 
@@ -651,14 +712,15 @@ footer {
     justify-items: flex-start;
     padding-left: 30px;
     display: grid;
-    width: 300px;
+    width: 360px;
     padding-left: 25px;
+    row-gap: 6px;
 }
 
 .tracklist li {
-    font-size: 25px;
+    font-size: 21px;
     color: #E8E3D9;
-    line-height: 1.8;
+    line-height: 1.45;
     font-family: Poppins, sans-serif;
     text-shadow: 0 0 10px #6B0000;
 }

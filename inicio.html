@@ -37,6 +37,91 @@
 
             <div class="linha"></div>
 
+            <h2>Recomendador</h2>
+
+            <div class="linha"></div>
+
+        </section>
+
+        <section class="recomendador-album">
+            <form id="formRecomendador" class="form-recomendador">
+                <div class="pergunta-recomendador">
+                    <label for="generoPreferido">Gênero preferido</label>
+                    <select id="generoPreferido" name="generoPreferido" required>
+                        <option value="">Escolha uma opção</option>
+                        <option value="death">Death metal</option>
+                        <option value="black">Black metal</option>
+                        <option value="thrash">Thrash metal</option>
+                        <option value="doom">Doom metal</option>
+                        <option value="groove">Groove metal</option>
+                        <option value="nu">Nu metal</option>
+                        <option value="heavy">Heavy metal</option>
+                        <option value="outros">Outros sons sombrios</option>
+                    </select>
+                </div>
+
+                <div class="pergunta-recomendador">
+                    <label for="intensidadePreferida">Intensidade</label>
+                    <select id="intensidadePreferida" name="intensidadePreferida" required>
+                        <option value="">Escolha uma opção</option>
+                        <option value="extremo">Extrema</option>
+                        <option value="rapido">Rápida</option>
+                        <option value="arrastado">Arrastada</option>
+                        <option value="pesado">Pesada</option>
+                        <option value="melodico">Melódica</option>
+                        <option value="tecnico">Técnica</option>
+                    </select>
+                </div>
+
+                <div class="pergunta-recomendador">
+                    <label for="climaPreferido">Clima do disco</label>
+                    <select id="climaPreferido" name="climaPreferido" required>
+                        <option value="">Escolha uma opção</option>
+                        <option value="sombrio">Sombrio</option>
+                        <option value="classico">Clássico</option>
+                        <option value="moderno">Moderno</option>
+                        <option value="energia">Explosivo</option>
+                        <option value="melancolico">Melancólico</option>
+                    </select>
+                </div>
+
+                <div class="pergunta-recomendador">
+                    <label for="epocaPreferida">Época preferida</label>
+                    <select id="epocaPreferida" name="epocaPreferida" required>
+                        <option value="">Escolha uma opção</option>
+                        <option value="anos70">Anos 70</option>
+                        <option value="anos80">Anos 80</option>
+                        <option value="anos90">Anos 90</option>
+                        <option value="anos2000">Anos 2000</option>
+                        <option value="atual">Atual</option>
+                    </select>
+                </div>
+
+                <div class="pergunta-recomendador">
+                    <label for="origemPreferida">Origem</label>
+                    <select id="origemPreferida" name="origemPreferida" required>
+                        <option value="">Escolha uma opção</option>
+                        <option value="nacional">Nacional</option>
+                        <option value="internacional">Internacional</option>
+                        <option value="qualquer">Qualquer uma</option>
+                    </select>
+                </div>
+
+                <button class="comprar botao-recomendar" type="submit">
+                    Recomendar álbum
+                </button>
+            </form>
+
+            <aside id="resultadoRecomendacao" class="resultado-recomendacao" aria-live="polite">
+                <h3>Resposta da loja</h3>
+                <p>O álbum escolhido aparece aqui.</p>
+            </aside>
+        </section>
+
+        <section class="titulo-secao">
+
+            <div class="linha"></div>
+
             <h2>Destaques</h2>
 
             <div class="linha"></div>
@@ -125,6 +210,7 @@
     <footer>
         <p>&copy; 2026 Hellfena Records. Todos os direitos reservados.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

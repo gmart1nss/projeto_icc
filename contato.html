@@ -143,6 +143,8 @@
                         placeholder="Prensagem desejada, estado do disco, troca por outro item..."></textarea>
                 </div>
 
+                <input type="hidden" id="totalPedido" name="totalPedido" value="R$ 0,00">
+
                 <button class="comprar botao-finalizar" type="submit">
                     Finalizar pedido
                 </button>
@@ -165,9 +167,21 @@
                     <span>Reserva</span>
                     <strong>24 horas</strong>
                 </div>
+                <div class="linha-resumo">
+                    <span>Álbum</span>
+                    <strong id="resumoAlbum">Nenhum selecionado</strong>
+                </div>
+                <div class="linha-resumo">
+                    <span>Quantidade</span>
+                    <strong id="resumoQuantidade">1</strong>
+                </div>
+                <div class="linha-resumo">
+                    <span>Preço unitário</span>
+                    <strong id="resumoPrecoUnitario">R$ 0,00</strong>
+                </div>
                 <div class="linha-resumo total-resumo">
-                    <span>Total</span>
-                    <strong>Confirmado por e-mail</strong>
+                    <span>Total dos discos</span>
+                    <strong id="totalDiscos">R$ 0,00</strong>
                 </div>
             </aside>
         </section>
@@ -176,6 +190,7 @@
     <footer>
         <p>&copy; 2026 Hellfena Records. Todos os direitos reservados.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
